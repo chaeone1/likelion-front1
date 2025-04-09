@@ -1,0 +1,77 @@
+body {
+    background-color: #D2E7D3;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 0;
+}
+
+h1, ul {
+    font-family: 'Chakra Petch', sans-serif;
+    color: #79CAB6;
+}
+
+hr {
+    margin: 0 30px;
+}
+
+td {
+    width: 450px;
+}
+
+h2 {
+    color: #94B396;
+}
+
+.profile {
+    background-color: white;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 900px;
+    text-align: center;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-top: -100px;
+}
+
+.text {
+    color: gray;
+    text-align: left;
+    font-size: 1.2em;
+    list-style: none;
+}
+
+.info-table {
+    width: 50%;
+    margin: 1em auto;
+    border-collapse: collapse;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+.info-table td {
+    padding: 1em;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.info-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.info-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.google-link {
+    margin-bottom: 20px;
+}

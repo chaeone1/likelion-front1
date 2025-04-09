@@ -1,0 +1,38 @@
+p{
+    color: tomato;
+}
+
+#habbit{
+    color: goldenrod;
+}
+
+.head{
+    color: violet;
+}
+
+.head-title{
+    border: 2px solid red;
+    text-align: center;
+    width: 100px;
+    height: 500px;
+    margin: 20px;
+    display: flex;
+}
+
+.habbit1 {
+    border: 2px solid red;
+    text-align: right;
+    font-weight: bold;
+    padding: 30px;
+}
+
+
+.author{
+    border: 2px solid red;
+    font-size: 25px;
+}
+
+.movie{
+    border: 2px solid red;
+    color: blue;
+}
