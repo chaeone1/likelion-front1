@@ -1,58 +1,99 @@
-/* 전체 폰트 적용 */
+/* 전체 폰트 및 배경 설정 */
 body {
-    font-family: 'Nanum Gothic', sans-serif;
-    background: linear-gradient(135deg, #e0c3fc, #8ec5fc);
-    margin: 0;
-    padding: 40px 20px;
-  }
-  
-  /* 카드 스타일 */
+  font-family: 'Gowun Dodum', sans-serif;
+  background: linear-gradient(135deg, #e0c3fc, #8ec5fc);
+  margin: 0;
+  padding: 40px 20px;
+}
+
+/* 카드 스타일 */
+.card {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* 프로필 이미지 스타일 */
+.profile-img img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 3px solid #a29bfe;
+  margin-bottom: 20px;
+}
+
+/* 제목 스타일 */
+h1 {
+  color: #2d3436;
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+/* 일반 정보 텍스트 */
+.info p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+/* 라벨 강조 */
+.label {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+/* 링크 기본 스타일 */
+a {
+  color: #6c5ce7;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 테이블 스타일 */
+.info-table {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+.info-table th,
+.info-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.info-table th {
+  color: #2c3e50;
+  font-weight: bold;
+  width: 30%;
+}
+
+.info-table a {
+  color: #6c5ce7;
+  text-decoration: none;
+}
+
+.info-table a:hover {
+  text-decoration: underline;
+}
+
+/* 반응형 대응 */
+@media (max-width: 600px) {
   .card {
-    max-width: 500px;
-    margin: 0 auto;
-    background-color: white;
-    padding: 40px;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-    text-align: center;
+    padding: 20px;
   }
-  
-  /* 프로필 이미지 */
-  .profile-img img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    border: 3px solid #a29bfe;
-    margin-bottom: 20px;
-  }
-  
-  /* 제목 */
-  h1 {
-    color: #2d3436;
-    font-size: 26px;
-    margin-bottom: 30px;
-  }
-  
-  /* 정보 텍스트 */
-  .info p {
-    margin: 10px 0;
-    font-size: 16px;
-    color: #555;
-  }
-  
-  /* 라벨 강조 */
-  .label {
-    font-weight: bold;
-    color: #2c3e50;
-  }
-  
-  /* 링크 스타일 */
-  a {
-    color: #6c5ce7;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
+}
